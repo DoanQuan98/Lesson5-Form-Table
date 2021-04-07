@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form cơ bản</title>
+</head>
+<Style>
+    .wufoo {
+        font-family: "lucida Grande", "lucida san unicode", Tahoma, sans-serif;
+    }
+
+    fieldset {
+        width: 300px;
+    }
+</Style>
+<body>
+<form method="get" action="simpleform.html" class="wufoo">
+    <fieldset>
+        <h2>Oder Form</h2>
+        <p>What world you like to buy?</p>
+        <select>
+            <option value="">a</option>
+            <option>B (+ 0,5$)</option>
+            <option>c (+ 0,5$)</option>
+        </select>
+        <p>How many world you like to order?</p>
+        <input type="radio" name="rd">1 - $10<br/>
+        <input type="radio" name="rd">2 - $20<br/>
+        <input type="radio" name="rd">3 - $25<br/>
+        <p>name <span style="color: red">*</span></p>
+        <input type="text" name="FirstName" placeholder="FirstName" size="15"/>
+        <input type="text" name="LastName" placeholder="LastName" size="15"/>
+        <p>Email</p>
+        <input type="test" name="Email" size="35">
+        <p>Phone Number</p>
+        <input type="text" name="Phone1" size="5"> -
+        <input type="text" name="Phone1" size="5"> -
+        <input type="text" name="Phone3" size="5">
+        <p><input type="button" name="btsumit" value="Sumit"></p>
+    </fieldset>
+</form>
+</body>
+</html>
